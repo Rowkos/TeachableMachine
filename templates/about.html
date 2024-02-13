@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yahtzee Detector</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js" type="text/javascript"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+<div class="container-fluid text-white text-center">
+
+    <nav class="navbar navbar-expand-sm bg-light navbar-light">
+        <div class="container-fluid">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/">
+                        <img src = "static/diceImage-removebg-preview.png" width = 90, height = 100>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/about"><h3><br>About</h3></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+<div class="container mt-5 p-3">
+    <div class="row">
+        <div class ="col-sm-1"></div>
+        <div class ="col-sm-8">
+        <h1>About Yahtzee Detector: </h1>
+        <h3>&nbsp;&nbsp;&nbsp;A Pointless Project by Rowan Koskoff</h3>
+            </div>
+    </div>
+    <div class="row">
+        <div class ="col-sm-2"></div>
+        <div class="col-sm-8">
+            <p class="text-left"><br>This is intended as a demonstration of the video recognition software Teachable Machines.
+                My main goal is to demonstrate that Image recognition software can be used to detect very similar ideas
+                like different faces of a dice. Yahtzee was added to provide a fun twist.
+                There are myriad of ways it could be improved, for example: using a separate webcam to actually look at dice being ruled;
+                rolling multiple dice and using image recognition to split that image into multiple sub-images each containing a single dice;
+                and allowing the user to play a full game of Yatzee, not just tell them what their best move is.
+                <br>
+            </p>
+        </div>
+        <div class ="col-sm-2"></div>
+    </div>
+
+    <div class="row">
+        <div class ="col-sm-1"></div>
+        <div class="col-sm-8">
+            <h3>Acknowledgements</h3>
+        </div>
+        <div class ="col-sm-2"></div>
+    </div>
+
+    <div class="row">
+        <div class ="col-sm-2"></div>
+        <div class="col-sm-8">
+            <p> <br>P5JS was a remarkably easy tool to use for the utility offered. The ease with which code could be interlocked between a P5 file and HTML is remarkable.</p>
+            <p> Teachable Machine, likewise, is a great combination of power and flexibility. It's amazing that even with such little training time it's able to create an effective model! </p>
+            <p> Lastly, I would like to acknowledge Yahtzee, a tragically underrated game. </p>
+        </div>
+        <div class ="col-sm-2"></div>
+    </div>
+</div>
+</body>
+</html>
