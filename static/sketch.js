@@ -16,7 +16,7 @@ This example uses p5 preload function to create the classifier
 // Classifier Variable
 let classifier;
 // Model URL
-let imageModelURL = "https://teachablemachine.withgoogle.com/models/h56-tJR2v/";
+let imageModelURL = "https://teachablemachine.withgoogle.com/models/I2MOTZBZ_/";
 
 // Video
 let video;
@@ -26,7 +26,7 @@ let label = "";
 let currentFace = -1;
 let evaluate = false;
 
-let recentRolls = [6, 6, 6, 6];
+let recentRolls = [];
 
 // Load the model first
 function preload() {
