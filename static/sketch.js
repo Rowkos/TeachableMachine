@@ -70,7 +70,7 @@ function draw() {
   if(recentRolls.length == 5)
   {
     document.getElementById('announcement').innerHTML =
-        "you're best play is: " + scoreHand();
+        "your best play is: " + scoreHand();
     document.querySelector('#resetbutton').hidden = false;
     // add a button that resets recent rolls
 
